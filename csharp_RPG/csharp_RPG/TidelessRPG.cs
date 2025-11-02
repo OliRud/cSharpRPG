@@ -12,7 +12,7 @@ namespace csharp_RPG
             InitializeComponent();
 
             _player = new Player(10,10,20,0,1);
-            Location location = new Location(1,"Home", "This is your home");
+            Location location = new Location(1,"Home", "This is your home", null, null, null);
 
             _player.CurrentHitPoints = 10;
             _player.MaximumHitPoints = 10;
